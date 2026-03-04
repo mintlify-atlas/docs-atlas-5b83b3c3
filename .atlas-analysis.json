@@ -1,0 +1,107 @@
+{
+  "projectType": "frontend",
+  "projectName": "CowSwap",
+  "projectDescription": "First trading interface built on CoW Protocol with gasless orders and MEV protection",
+  "theme": "almond",
+  "primaryColor": "#585858",
+  "lightColor": "#1e1e1e",
+  "darkColor": "#c6c6c6",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/cow-protocol",
+              "concepts/gasless-orders",
+              "concepts/mev-protection",
+              "concepts/batch-auctions"
+            ]
+          },
+          {
+            "group": "Trading Features",
+            "pages": [
+              "features/swap",
+              "features/limit-orders",
+              "features/twap",
+              "features/bridge",
+              "features/hooks"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "architecture/overview",
+              "architecture/monorepo",
+              "architecture/modules",
+              "architecture/state-management"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "development/setup",
+              "development/configuration",
+              "development/testing",
+              "development/contributing"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Components",
+        "groups": [
+          {
+            "group": "Applications",
+            "pages": [
+              "components/cowswap-frontend",
+              "components/explorer",
+              "components/cow-fi",
+              "components/widget"
+            ]
+          },
+          {
+            "group": "Shared Libraries",
+            "pages": [
+              "components/libs/ui",
+              "components/libs/tokens",
+              "components/libs/wallet",
+              "components/libs/common-utils"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Gasless order execution via CoW Protocol",
+    "MEV protection through batch auctions",
+    "Multiple trading modes: swap, limit orders, TWAP",
+    "Cross-chain bridging integration",
+    "Hook system for custom order execution logic",
+    "Widget embeddable in third-party applications",
+    "Order explorer and transaction history",
+    "Multi-network support (Ethereum, Gnosis, Arbitrum, etc.)"
+  ],
+  "publicApiSurface": [
+    "@cowprotocol/cowswap - Main trading interface",
+    "@cowprotocol/widget-lib - Embeddable widget library",
+    "@cowprotocol/widget-react - React widget components",
+    "@cowprotocol/ui - Shared UI component library",
+    "@cowprotocol/tokens - Token list and token utilities",
+    "@cowprotocol/common-utils - Shared utility functions",
+    "@cowprotocol/wallet - Wallet connection and management",
+    "@cowprotocol/analytics - Analytics tracking utilities",
+    "Explorer - Order and trade explorer application",
+    "CoW.fi - Marketing and information site"
+  ]
+}
